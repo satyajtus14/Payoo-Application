@@ -25,7 +25,7 @@ const cashPin = getValueFromInput('cash-pin');
 // 4-1 If true --> Show an alert > Set Balance
 if(cashPin === '1234'){
    alert(`Add Money successful from ${bankAccount} at ${new Date()}`);
-  setBalance(newBalance)
+  setBalance(newBalance);
 
 }
 // 4-2 if false --> Show an error alert > return
